@@ -24,7 +24,7 @@ def main():
             # write to txt file ---------->
             writer = open('wifi.txt', 'a')
             writer.write('SSID : {}\nPASS : {}\n\n'.format(name,for_pass[1]))
-            writer.close
+            writer.close()
         
 if __name__ == '__main__':
     main()
